@@ -3,12 +3,25 @@
     max-width: 1400px;
 }
 
+.contactForm {
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: solid 5px #000000;
+}
+
+.contactForm input {
+    margin:5px 0;
+}
+
 .contactList {
-    margin:0 auto;
+    margin: 0 auto;
     width: 500px;
     display: flex;
     flex-direction: column;
     min-width: 300px;
+    padding-left: 0px;
 }
 
 .contactItem {
@@ -21,10 +34,12 @@
 .contactItem img {
     width: 5em;
     height: 5em;
-    margin: auto;
+    margin-right: 10px;
 }
-.contactInfo{
-    margin:0 auto;
+
+.contactInfo {
+    flex: 2;
+    padding: 0 0 0 5em;
     line-height: 50%;
-    background: #676767;
+    background: #676767a8;
 }
